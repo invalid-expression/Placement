@@ -1,0 +1,29 @@
+﻿@model Employee
+
+<div class="container bg-dark bg-opacity-25 p-4 rounded">
+    <h2 class="text-center my-4">Create New Employee Account</h2>
+    <form asp-action="UpdateEmployee" method="post" class="container p-4 rounded">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Name</label>
+                <input asp-for="ID" type="hidden" />
+                <input asp-for="Name" class="form-control" placeholder="Enter Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+                <label class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" placeholder="Enter Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+                <label class="form-label">Contact</label>
+                <input asp-for="Contact" class="form-control" placeholder="Enter Contact" />
+                <span asp-validation-for="Contact" class="text-danger"></span>
+
+                <label class="form-label">Address</label>
+                <input asp-for="Address" class="form-control" placeholder="Enter Address" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+                <br />
+                <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+    </form>
+</div>

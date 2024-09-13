@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Employee Index";
+}
+
+@model List<Employee>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Address</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach(var data in Model)
+    {
+        <tr>
+            <td>@data.ID</td>
+            <td>@data.Name</td>
+            <td>@data.Email</td>
+            <td>@data.Contact</td>
+            <td>@data.Address</td>
+            <td>
+                <a class="btn btn-primary" href="@Url.Action("UpdateEmployee","Employee", new {ID = data.ID})">Edit</a>
+                <a class="btn btn-danger" href="@Url.Action("DeleteEmployee","Employee", new {ID = data.ID})" class="mb-lg-3">Delete</a>
+            </td>
+        </tr>
+    }
+    @* @if (TempData["Success"] != null)
+    {
+        <p class="alert alert-success" id="successMessage">@TempData["Success"]</p>
+        var Count = 0;
+        @foreach (var data in Model)
+        {
+            Count++;
+            var Number = data.Contact;
+            if (Number == "6352850732" && Count == 8)
+            {
+                <p class="alert alert-danger" id="successMessage">@TempData["Unsuccess"]</p>
+            }
+        }
+    } *@
+    
+    
+</table>
