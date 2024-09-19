@@ -9,7 +9,7 @@ a.navbar-brand[b-vgedlc2awr] {
 }
 
 a[b-vgedlc2awr] {
-  color: #0077cc;
+    color: black;
 }
 
 .btn-primary[b-vgedlc2awr] {
@@ -19,9 +19,9 @@ a[b-vgedlc2awr] {
 }
 
 .nav-pills .nav-link.active[b-vgedlc2awr], .nav-pills .show > .nav-link[b-vgedlc2awr] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .border-top[b-vgedlc2awr] {
@@ -47,3 +47,13 @@ button.accept-policy[b-vgedlc2awr] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.active[b-vgedlc2awr] {
+    font-weight: bold;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    color: whitesmoke;
+}
+
+
+

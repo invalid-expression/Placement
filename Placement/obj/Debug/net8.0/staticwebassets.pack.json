@@ -1,247 +1,387 @@
 {
   "Files": [
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Placement.bundle.scp.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Placement.bundle.scp.css",
       "PackagePath": "staticwebassets\\Placement.bundle.scp.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\css\\site.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\favicon.ico",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\js\\site.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\04b27b25-88b4-4505-808e-70ff83618b2f_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\04b27b25-88b4-4505-808e-70ff83618b2f_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\0d4efea8-8abc-44ed-b3dd-51aa3fbb9d45_profile.webp",
+      "PackagePath": "staticwebassets\\images\\0d4efea8-8abc-44ed-b3dd-51aa3fbb9d45_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\139d0132-e44a-46f1-a403-12e4d56b1872_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\139d0132-e44a-46f1-a403-12e4d56b1872_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\1630c71a-28a7-4a31-804a-4bab3a81c049_profile.webp",
+      "PackagePath": "staticwebassets\\images\\1630c71a-28a7-4a31-804a-4bab3a81c049_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\163baca2-a32a-418f-a582-66bf97d11fe3_profile.webp",
+      "PackagePath": "staticwebassets\\images\\163baca2-a32a-418f-a582-66bf97d11fe3_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\18c3af3b-30a2-44ac-a726-458a8406db49_profile.webp",
+      "PackagePath": "staticwebassets\\images\\18c3af3b-30a2-44ac-a726-458a8406db49_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\19d9e036-675a-4964-8d16-1041f2700c07_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\19d9e036-675a-4964-8d16-1041f2700c07_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\1a1ea524-d052-4f52-bd69-655a62de6d93_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\1a1ea524-d052-4f52-bd69-655a62de6d93_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\2304ea02-da7b-49c4-a04f-8d4c37090b98_profile.webp",
+      "PackagePath": "staticwebassets\\images\\2304ea02-da7b-49c4-a04f-8d4c37090b98_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\283175aa-b106-43f5-97ae-cfebf30b0513_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\283175aa-b106-43f5-97ae-cfebf30b0513_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\28add41a-4ac6-499e-b839-59692a61ddd5_profile.webp",
+      "PackagePath": "staticwebassets\\images\\28add41a-4ac6-499e-b839-59692a61ddd5_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\2f4f9c76-d522-401e-bdb7-0acff4b07924_profile.webp",
+      "PackagePath": "staticwebassets\\images\\2f4f9c76-d522-401e-bdb7-0acff4b07924_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\31d7585a-49a9-40cf-a607-fe1a4f6e1956_profile.webp",
+      "PackagePath": "staticwebassets\\images\\31d7585a-49a9-40cf-a607-fe1a4f6e1956_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\3e0773f2-9741-4404-8eec-b8572681f8e2_Screenshot 2024-05-06 164450.png",
+      "PackagePath": "staticwebassets\\images\\3e0773f2-9741-4404-8eec-b8572681f8e2_Screenshot 2024-05-06 164450.png"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\5a1b0be9-fc46-400c-b166-3f7e8fdecc89_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\5a1b0be9-fc46-400c-b166-3f7e8fdecc89_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\5ad0909f-9c50-4eae-b3d4-9b8eeb98024f_profile.webp",
+      "PackagePath": "staticwebassets\\images\\5ad0909f-9c50-4eae-b3d4-9b8eeb98024f_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\5f524d72-16ee-43c8-823f-25034d075471_Screenshot 2024-05-06 164156.png",
+      "PackagePath": "staticwebassets\\images\\5f524d72-16ee-43c8-823f-25034d075471_Screenshot 2024-05-06 164156.png"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\6ffd290f-2cac-4653-bf85-428ff8e625c8_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\6ffd290f-2cac-4653-bf85-428ff8e625c8_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\87078cb5-eddf-4bf1-bdfe-f67296c1b598_profile.webp",
+      "PackagePath": "staticwebassets\\images\\87078cb5-eddf-4bf1-bdfe-f67296c1b598_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\8d89f700-db4a-4f29-8c77-ec8b40c6f80e_profile.webp",
+      "PackagePath": "staticwebassets\\images\\8d89f700-db4a-4f29-8c77-ec8b40c6f80e_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\997ccafa-898b-49da-a686-5e205a091298_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\997ccafa-898b-49da-a686-5e205a091298_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\9eb03e4d-08d5-4bd8-8e5a-a36c0f87e081_profile.webp",
+      "PackagePath": "staticwebassets\\images\\9eb03e4d-08d5-4bd8-8e5a-a36c0f87e081_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\abda06e1-f878-4d55-a5e8-9ca87d684030_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\abda06e1-f878-4d55-a5e8-9ca87d684030_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\afd0e230-b2f4-4fba-abb9-083fd43fa4d2_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\afd0e230-b2f4-4fba-abb9-083fd43fa4d2_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\b6b2b45e-7472-43fb-8709-50e958a6c169_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\b6b2b45e-7472-43fb-8709-50e958a6c169_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\b7266558-0e35-4c55-8e65-d88cd434c4fd_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\b7266558-0e35-4c55-8e65-d88cd434c4fd_Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\bab29c51-280b-4864-bc46-619ab045f849_Screenshot 2024-09-02 192727.png",
+      "PackagePath": "staticwebassets\\images\\bab29c51-280b-4864-bc46-619ab045f849_Screenshot 2024-09-02 192727.png"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\c056e5aa-d7d5-407d-8f29-cd4dca1dd2be_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\c056e5aa-d7d5-407d-8f29-cd4dca1dd2be_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\c3391823-a110-402c-abb6-a64fcf1b6c8d_profile.webp",
+      "PackagePath": "staticwebassets\\images\\c3391823-a110-402c-abb6-a64fcf1b6c8d_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\cd0ad3f1-1c9f-40db-9a56-ad95177cfb18_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\cd0ad3f1-1c9f-40db-9a56-ad95177cfb18_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\d302bdeb-ab54-482d-b0ca-218ea3c36f87_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\d302bdeb-ab54-482d-b0ca-218ea3c36f87_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\e5a05331-cace-4434-a25f-172114bcd0b6_profile.webp",
+      "PackagePath": "staticwebassets\\images\\e5a05331-cace-4434-a25f-172114bcd0b6_profile.webp"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\f2b7f099-d6de-435f-9d0d-6bbdedb877f3_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\f2b7f099-d6de-435f-9d0d-6bbdedb877f3_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\fa0a1028-70d1-45c7-a187-20d0efb52896_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\fa0a1028-70d1-45c7-a187-20d0efb52896_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\fbe7434b-d548-42c6-b7fe-82188db119f1_Screenshot 2024-09-02 180235.png",
+      "PackagePath": "staticwebassets\\images\\fbe7434b-d548-42c6-b7fe-82188db119f1_Screenshot 2024-09-02 180235.png"
+    },
+    {
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

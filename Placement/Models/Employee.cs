@@ -24,5 +24,12 @@ namespace Placement.Models
         [Required]
         public string? Address { get; set; }
 
+        [Required(ErrorMessage = "Please choose profile image")]
+        [Display(Name = "Profile Picture")]
+        [NotMapped]
+        public IFormFile? ProfileImage { get; set; }
+
+        public string? ProfilePicture { get; set; }
+
     }
 }

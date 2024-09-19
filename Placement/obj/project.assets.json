@@ -4203,11 +4203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\Placement.csproj",
+      "projectUniqueName": "D:\\Rohit\\PlacementGit\\Placement\\Placement.csproj",
       "projectName": "Placement",
-      "projectPath": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\Placement.csproj",
+      "projectPath": "D:\\Rohit\\PlacementGit\\Placement\\Placement.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Rohit\\ASPIdentity\\IdentityWithScaffolding\\Placement\\Placement\\obj\\",
+      "outputPath": "D:\\Rohit\\PlacementGit\\Placement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

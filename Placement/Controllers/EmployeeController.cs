@@ -1,7 +1,9 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Placement.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Placement.Controllers
 {
@@ -9,15 +11,42 @@ namespace Placement.Controllers
     {
         private readonly EmployeeDbContext _employeeDbContext;
         private readonly INotyfService _notyf;
-        public EmployeeController(EmployeeDbContext employeeDbContext, INotyfService notyfService)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public EmployeeController(EmployeeDbContext employeeDbContext, INotyfService notyfService, IWebHostEnvironment webHostEnvironment)
         {
             _employeeDbContext = employeeDbContext;
             _notyf = notyfService;
+            _webHostEnvironment = webHostEnvironment;
         }
-        
+
+        [HttpGet]
+        public IActionResult UpdateEmployee(int ID)
+        {
+            if (ID != 0)
+            {
+                _notyf.Information("Edit Your Details Then Click on Confirm");
+                var model = _employeeDbContext.Employee.FirstOrDefault(x => x.ID == ID);
+                return View(model);
+            }
+            return View();
+
+        }
+
+        [HttpPost]
+        public IActionResult UpdateEmployee(Employee model)
+        {
+            string uniqueFileName = UploadedFile(model);
+            model.ProfilePicture = uniqueFileName;
+            var old_student_entries = _employeeDbContext.Employee.FirstOrDefault(e => e.ID == model.ID);
+            _employeeDbContext.Entry(old_student_entries).CurrentValues.SetValues(model);
+            _employeeDbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
         public IActionResult Index()
         {
-            _notyf.Information("Go To Homepage To Create Your New Account.", 10);
+            //_notyf.Information("Go To Homepage To Create Your New Account.", 10);
             var employee = _employeeDbContext.Employee.ToList();
             return View(employee);
         }
@@ -32,45 +61,77 @@ namespace Placement.Controllers
         {
             if (ModelState.IsValid)
             {
+                string uniqueFileName = UploadedFile(model);
+
+                // Save the unique file name (image path) in the database
+                model.ProfilePicture = uniqueFileName;
+
                 _employeeDbContext.Employee.Add(model);
                 _employeeDbContext.SaveChanges();
+                _notyf.Success("Your New Account Created Successfully");
                 return RedirectToAction("Index", "Home");
             }
             else
             {
                 return View(model);
             }
-               
-        }
 
-        public IActionResult UpdateEmployee(int ID)
+        }
+        private string UploadedFile(Employee model)
         {
-            if(ID != 0)
+            string uniqueFileName = null;
+
+            if (model.ProfileImage != null)
             {
-                _notyf.Information("Edit Your Details Then Click on Confirm");
-                var model = _employeeDbContext.Employee.FirstOrDefault(x => x.ID == ID);
-                return View(model);
+                string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + model.ProfileImage.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    model.ProfileImage.CopyTo(fileStream);
+                }
             }
-            return View();
-            
+            return uniqueFileName;
         }
 
-        [HttpPost]
-        public IActionResult UpdateEmployee(Employee updatemodel)
-        {
-            var old_student_entries = _employeeDbContext.Employee.FirstOrDefault(e => e.ID == updatemodel.ID);
-            _employeeDbContext.Entry(old_student_entries).CurrentValues.SetValues(updatemodel);
-            _employeeDbContext.SaveChanges();
-            return RedirectToAction("Index");
-        }
 
+
+        //private string UploadedFile(Employee model)
+        //{
+        //    string uniqueFileName = null;
+
+        //    if (model.ProfileImage != null)
+        //    {
+        //        string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+        //        uniqueFileName = Guid.NewGuid().ToString() + "_" + model.ProfileImage.FileName;
+        //        string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+        //        using (var fileStream = new FileStream(filePath, FileMode.Create))
+        //        {
+        //            model.ProfileImage.CopyTo(fileStream);
+        //        }
+        //    }
+        //    return uniqueFileName;
+        //}
+
+        [HttpGet]
         public IActionResult DeleteEmployee(int ID)
         {
             var model = _employeeDbContext.Employee.FirstOrDefault(x => x.ID == ID);
             _employeeDbContext.Employee.Remove(model);
-            _notyf.Custom("Account Has Been Deleted", 5,"red", "fa fa-trash");
+            _notyf.Custom("Account Deleted", 5,"whitesmoke", "fa fa-trash");
             _employeeDbContext.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult YourProfile(int ID)
+        {
+            if (ID != 0)
+            {
+                var model = _employeeDbContext.Employee.FirstOrDefault(x => x.ID == ID);
+                return View(model);
+            }
+            return View();
         }
     }
 }
