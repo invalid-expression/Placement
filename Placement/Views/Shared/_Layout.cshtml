@@ -22,13 +22,13 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between menu">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Home" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                        <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Home" && ViewContext.RouteData.Values["action"].ToString() == "Privacy" ? "active" : "")">
+                        <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Privacy" ? "active" : "")">
                             <a class="nav-link text-dark active" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Employee" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                        <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Employee" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">
                             <a class="nav-link text-dark active" asp-area="" asp-controller="Employee" asp-action="Index">Emloyee</a>
                         </li>
                     </ul>
@@ -55,6 +55,6 @@
 
     @await Component.InvokeAsync("Notyf")
     @RenderSection("Scripts", required: false)
-    @await RenderSectionAsync("Scripts", required: false)
+    
 </body>
 </html>

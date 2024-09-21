@@ -2,7 +2,9 @@
     ViewData["Title"] = "Employee Index";
 }
 @model List<Employee>
-<a href="Employee/CreateEmployee" class="btn btn-toolbar">Add Employee</a> <br />
+<a href="Employee/CreateEmployee" class="btn btn-primary">Add Employee</a>
+<a href="Identity/Account/Logout" class="btn btn-danger">Logout</a>
+<br />
 <table id="myTable" class="display, table">
     <thead>
         <tr>
@@ -42,6 +44,8 @@
         }
     </tbody>
 </table>
+<br />
+<a href="Employee/CreateEmployee" class="btn btn-primary">Back</a>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>

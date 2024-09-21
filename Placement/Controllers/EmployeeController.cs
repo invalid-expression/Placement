@@ -1,5 +1,7 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Placement.Models;
@@ -7,6 +9,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Placement.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly EmployeeDbContext _employeeDbContext;
@@ -69,12 +72,9 @@ namespace Placement.Controllers
                 _employeeDbContext.Employee.Add(model);
                 _employeeDbContext.SaveChanges();
                 _notyf.Success("Your New Account Created Successfully");
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index");
             }
-            else
-            {
-                return View(model);
-            }
+            return View(model);
 
         }
         private string UploadedFile(Employee model)
@@ -90,6 +90,7 @@ namespace Placement.Controllers
                 {
                     model.ProfileImage.CopyTo(fileStream);
                 }
+                
             }
             return uniqueFileName;
         }

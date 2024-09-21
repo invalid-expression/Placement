@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Placement.Areas.Identity.Pages.Account;
 
 namespace Placement.Models
 {
@@ -10,7 +11,7 @@ namespace Placement.Models
 
         [Column(TypeName = "Varchar(50)")]
         [Required]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Column(TypeName = "Varchar(50)")]
         [Required]
@@ -28,8 +29,9 @@ namespace Placement.Models
         [Display(Name = "Profile Picture")]
         [NotMapped]
         public IFormFile? ProfileImage { get; set; }
-
         public string? ProfilePicture { get; set; }
+
+  
 
     }
 }

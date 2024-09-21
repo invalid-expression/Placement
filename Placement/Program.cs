@@ -2,8 +2,13 @@ using AspNetCoreHero.ToastNotification;
 using AspNetCoreHero.ToastNotification.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Placement.Models;
+using Microsoft.AspNetCore.Identity;
+using Placement.Data;
+using Microsoft.AspNetCore.Builder;
+using Placement.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("PlacementContextConnection") ?? throw new InvalidOperationException("Connection string 'PlacementContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -14,11 +19,16 @@ var config = provider.GetRequiredService<IConfiguration>();
 builder.Services.AddDbContext<EmployeeDbContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DBconnect")));
 
+builder.Services.AddDbContext<PlacementContext>(options =>
+    options.UseSqlServer(config.GetConnectionString("DBconnect")));
+
+builder.Services.AddDefaultIdentity<PlacementUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<PlacementContext>();
+
 builder.Services.AddNotyf(config =>
 {
     config.DurationInSeconds = 10;
     config.IsDismissable = true;
-    config.Position = NotyfPosition.BottomRight;
+    config.Position = NotyfPosition.BottomCenter;
 });
 
 var app = builder.Build();
@@ -36,10 +46,19 @@ app.UseStaticFiles();
 app.UseNotyf();
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Employee}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Employee}/{action=Index}/{id?}");
 
 app.Run();

@@ -224,6 +224,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\2f4f9c76-d522-401e-bdb7-0acff4b07924_profile.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\308730e3-2168-430b-82eb-7da38f895811_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/308730e3-2168-430b-82eb-7da38f895811_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\308730e3-2168-430b-82eb-7da38f895811_profile.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\31d7585a-49a9-40cf-a607-fe1a4f6e1956_profile.webp))">
       <SourceType>Package</SourceType>
       <SourceId>Placement</SourceId>
@@ -255,6 +271,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3e0773f2-9741-4404-8eec-b8572681f8e2_Screenshot 2024-05-06 164450.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4bdfcf03-8998-4d51-8870-8fcb36618d3a_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/4bdfcf03-8998-4d51-8870-8fcb36618d3a_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4bdfcf03-8998-4d51-8870-8fcb36618d3a_profile.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\59fc9732-ef52-4e18-8333-075f73f28da9_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/59fc9732-ef52-4e18-8333-075f73f28da9_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\59fc9732-ef52-4e18-8333-075f73f28da9_profile.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5a1b0be9-fc46-400c-b166-3f7e8fdecc89_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
       <SourceType>Package</SourceType>
@@ -400,6 +448,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\abda06e1-f878-4d55-a5e8-9ca87d684030_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ae3a68f2-87d7-44ea-b851-3cb64787c69a_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/ae3a68f2-87d7-44ea-b851-3cb64787c69a_beautiful-latin-woman-avatar-character-icon-free-vector.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ae3a68f2-87d7-44ea-b851-3cb64787c69a_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\afd0e230-b2f4-4fba-abb9-083fd43fa4d2_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Placement</SourceId>
@@ -447,6 +511,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b7266558-0e35-4c55-8e65-d88cd434c4fd_Screenshot (2).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b8c5669a-4493-4e26-832e-6c278ea593e6_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/b8c5669a-4493-4e26-832e-6c278ea593e6_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b8c5669a-4493-4e26-832e-6c278ea593e6_profile.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\bab29c51-280b-4864-bc46-619ab045f849_Screenshot 2024-09-02 192727.png))">
       <SourceType>Package</SourceType>
@@ -512,6 +592,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cd0ad3f1-1c9f-40db-9a56-ad95177cfb18_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cdea24e9-8f47-4e50-8184-1b7663b00ecc_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/cdea24e9-8f47-4e50-8184-1b7663b00ecc_beautiful-latin-woman-avatar-character-icon-free-vector.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cdea24e9-8f47-4e50-8184-1b7663b00ecc_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d302bdeb-ab54-482d-b0ca-218ea3c36f87_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Placement</SourceId>
@@ -544,6 +640,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e5a05331-cace-4434-a25f-172114bcd0b6_profile.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ee3e7872-796f-4ce9-999d-03e073b2cc27_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/ee3e7872-796f-4ce9-999d-03e073b2cc27_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ee3e7872-796f-4ce9-999d-03e073b2cc27_profile.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f2b7f099-d6de-435f-9d0d-6bbdedb877f3_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Placement</SourceId>
@@ -559,6 +671,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f2b7f099-d6de-435f-9d0d-6bbdedb877f3_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f5cd2a2a-b5af-46f3-93b7-6d0ebd5fa18c_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/f5cd2a2a-b5af-46f3-93b7-6d0ebd5fa18c_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f5cd2a2a-b5af-46f3-93b7-6d0ebd5fa18c_profile.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f8036808-72d1-47c6-8d02-fb1c42368b53_profile.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Placement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Placement</BasePath>
+      <RelativePath>images/f8036808-72d1-47c6-8d02-fb1c42368b53_profile.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f8036808-72d1-47c6-8d02-fb1c42368b53_profile.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fa0a1028-70d1-45c7-a187-20d0efb52896_beautiful-latin-woman-avatar-character-icon-free-vector.jpg))">
       <SourceType>Package</SourceType>
