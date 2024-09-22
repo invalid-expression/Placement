@@ -24,10 +24,13 @@
             <tr>
                 <td>@data.ID</td>
                 <td>
-                    <img src="~/images/@data.ProfilePicture"
-                         class="rounded-circle"
-                         height="40" width="40"
-                         asp-append-version="true" alt="Image" />
+                    <a href="@Url.Action("YourProfile", "Employee", new { ID = data.ID })">
+                        <img src="~/images/@data.ProfilePicture"
+                             class="rounded-circle"
+                             height="40" width="40"
+                             asp-append-version="true" alt="Image" />
+                    </a>
+                    
                 </td>
                 <td>@data.Name</td>
                 <td>@data.Email</td>
@@ -45,7 +48,7 @@
     </tbody>
 </table>
 <br />
-<a href="Employee/CreateEmployee" class="btn btn-primary">Back</a>
+<a href="/Home/Index" class="btn btn-primary">Back</a>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>

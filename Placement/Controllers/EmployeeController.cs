@@ -38,12 +38,17 @@ namespace Placement.Controllers
         [HttpPost]
         public IActionResult UpdateEmployee(Employee model)
         {
-            string uniqueFileName = UploadedFile(model);
-            model.ProfilePicture = uniqueFileName;
-            var old_student_entries = _employeeDbContext.Employee.FirstOrDefault(e => e.ID == model.ID);
-            _employeeDbContext.Entry(old_student_entries).CurrentValues.SetValues(model);
-            _employeeDbContext.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                string uniqueFileName = UploadedFile(model);
+                model.ProfilePicture = uniqueFileName;
+                var old_student_entries = _employeeDbContext.Employee.FirstOrDefault(e => e.ID == model.ID);
+                _employeeDbContext.Entry(old_student_entries).CurrentValues.SetValues(model);
+                _employeeDbContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+            
         }
 
         [HttpGet]
