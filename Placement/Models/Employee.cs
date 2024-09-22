@@ -30,8 +30,7 @@ namespace Placement.Models
         [NotMapped]
         public IFormFile? ProfileImage { get; set; }
         public string? ProfilePicture { get; set; }
-
-  
+        public bool? IsActive { get; set; }
 
     }
 }

@@ -46,3 +46,13 @@ Insert Into Employee (Name, Email, Contact, Address) VALUES ('Rohit', 'email@ema
 
 ALTER TABLE Employee
 ADD ProfilePicture NVARCHAR(MAX) NULL;
+
+------- 22/9/24 ------
+UPDATE Enployee
+SET IsActive = 1
+WHERE IsActive IS NULL;
+
+
+ALTER TABLE Employee
+ALTER COLUMN IsActive BIT NOT NULL;
+S

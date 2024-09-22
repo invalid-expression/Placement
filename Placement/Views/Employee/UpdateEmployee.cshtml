@@ -25,9 +25,17 @@
                 <label class="form-label">Address</label>
                 <input asp-for="Address" class="form-control" placeholder="Enter Address" />
                 <span asp-validation-for="Address" class="text-danger"></span>
+
+                <label class="form-label">Status</label>
+                <select asp-for="IsActive" class="form-control">
+                    <option value=true>Active</option>
+                    <option value=false>Not Active</option>
+                </select>
+
                 <br />
                 <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Update</button>
                 <a class="btn btn-secondary" href="/Employee/Index">Back</a>
+
             </div>
         </div>
     </form>
