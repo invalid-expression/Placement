@@ -31,6 +31,9 @@ namespace Placement.Models
         public IFormFile? ProfileImage { get; set; }
         public string? ProfilePicture { get; set; }
         public bool? IsActive { get; set; }
+        public DateTime? CreateDate { get; set; }
+
+
 
     }
 }

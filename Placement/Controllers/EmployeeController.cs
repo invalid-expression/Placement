@@ -74,6 +74,7 @@ namespace Placement.Controllers
                 // Save the unique file name (image path) in the database
                 model.ProfilePicture = uniqueFileName;
 
+                model.CreateDate = DateTime.Now;
                 _employeeDbContext.Employee.Add(model);
                 _employeeDbContext.SaveChanges();
                 _notyf.Success("Your New Account Created Successfully");

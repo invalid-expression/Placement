@@ -15,7 +15,8 @@ ModifiedAt datetime,
 ModifiedBy varcha(50),
 ID int primary key
 
-Insert Into Employee (Name, Email, Contact, Address) VALUES ("Rohit", "email@email.com", "7096384103", "23 Green Palace"); 
+Insert Into Employee (Name, Email, Contact, Address) VALUES 
+("Rohit", "email@email.com", "7096384103", "23 Green Palace"); 
 
 
 
@@ -39,8 +40,11 @@ ModifiedBy varchar(50),
 ID int primary key Identity(1,1)
 )
 
+UPDATE Employee
+SET CreateDate = GETDATE()
+WHERE CreateDate IS NULL; 
 
-Insert Into Employee (Name, Email, Contact, Address) VALUES ('Rohit', 'email@email.com', '7096384103', '23 Green Palace'); s
+(Name, Email, Contact, Address) VALUES ('Rohit', 'email@email.com', '7096384103', '23 Green Palace'); s
 
 ---- 14/09/2024 ----
 
@@ -55,4 +59,8 @@ WHERE IsActive IS NULL;
 
 ALTER TABLE Employee
 ALTER COLUMN IsActive BIT NOT NULL;
-S
+
+---------23/9/2024-----------
+UPDATE Employee
+SET CreateDate = GETDATE()
+WHERE CreateDate IS NULL;
