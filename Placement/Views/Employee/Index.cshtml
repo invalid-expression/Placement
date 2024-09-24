@@ -2,6 +2,15 @@
     ViewData["Title"] = "Employee Index";
 }
 @model List<Employee>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Employee</li>
+    </ol>
+</nav>
+
+
 <a href="/Employee/CreateEmployee" class="btn btn-primary">Add Employee</a>
 <a href="Identity/Account/Logout" class="btn btn-danger">Logout</a>
 <br />

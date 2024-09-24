@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using Placement.Models;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
@@ -65,7 +66,7 @@ namespace Placement.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateEmployee(Employee model)
+        public IActionResult CreateEmployee(Employee model, Register email)
         {
             if (ModelState.IsValid)
             {
@@ -75,6 +76,8 @@ namespace Placement.Controllers
                 model.ProfilePicture = uniqueFileName;
 
                 model.CreateDate = DateTime.Now;
+                
+
                 _employeeDbContext.Employee.Add(model);
                 _employeeDbContext.SaveChanges();
                 _notyf.Success("Your New Account Created Successfully");

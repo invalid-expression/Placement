@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wcgCG9zzz2Yub4lf9ae1ej0PK5fHCnDFhjqe38kNen8=",
+  "Hash": "DCsYeAhNQlaekQ32olfG1X8yCCw/ZW3ovQ6FvqC85N8=",
   "Source": "Placement",
   "BasePath": "_content/Placement",
   "Mode": "Default",
@@ -1347,6 +1347,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\030e2d85-5709-4a20-8b2f-c286b9d51815_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "SourceId": "Placement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\",
+      "BasePath": "_content/Placement",
+      "RelativePath": "images/030e2d85-5709-4a20-8b2f-c286b9d51815_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\030e2d85-5709-4a20-8b2f-c286b9d51815_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
       "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\04b27b25-88b4-4505-808e-70ff83618b2f_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",
       "SourceId": "Placement",
       "SourceType": "Discovered",
@@ -1383,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\04dc0e76-99cb-40e4-84f9-0977bcc41b9f_beautiful-latin-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\0c9fd2b6-e49f-4084-8177-df7259d16da5_profile.webp",
+      "SourceId": "Placement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\",
+      "BasePath": "_content/Placement",
+      "RelativePath": "images/0c9fd2b6-e49f-4084-8177-df7259d16da5_profile.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0c9fd2b6-e49f-4084-8177-df7259d16da5_profile.webp"
     },
     {
       "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\0d4efea8-8abc-44ed-b3dd-51aa3fbb9d45_profile.webp",
@@ -1708,6 +1746,25 @@
       "OriginalItemSpec": "wwwroot\\images\\3e0773f2-9741-4404-8eec-b8572681f8e2_Screenshot 2024-05-06 164450.png"
     },
     {
+      "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\3e50d2b7-6a19-40bf-bf2b-31142f958d0d_profile.webp",
+      "SourceId": "Placement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\",
+      "BasePath": "_content/Placement",
+      "RelativePath": "images/3e50d2b7-6a19-40bf-bf2b-31142f958d0d_profile.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3e50d2b7-6a19-40bf-bf2b-31142f958d0d_profile.webp"
+    },
+    {
       "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\4666492f-6ad4-4c20-a53e-318515ba9592_profile.webp",
       "SourceId": "Placement",
       "SourceType": "Discovered",
@@ -1744,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\4bdfcf03-8998-4d51-8870-8fcb36618d3a_profile.webp"
+    },
+    {
+      "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\4e1e702d-ae3c-4870-ad06-607de7b7c61b_profile.webp",
+      "SourceId": "Placement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\",
+      "BasePath": "_content/Placement",
+      "RelativePath": "images/4e1e702d-ae3c-4870-ad06-607de7b7c61b_profile.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e1e702d-ae3c-4870-ad06-607de7b7c61b_profile.webp"
     },
     {
       "Identity": "D:\\Rohit\\PlacementGit\\Placement\\wwwroot\\images\\59c27a53-ada9-4797-b640-d72c0840ead1_beautiful-latin-woman-avatar-character-icon-free-vector.jpg",

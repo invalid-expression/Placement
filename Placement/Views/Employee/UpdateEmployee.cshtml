@@ -1,5 +1,13 @@
 ﻿@model Employee
 
+<nav aria-label="breadcrumb">
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/Home/Index">Home</a></li>
+        <li class="breadcrumb-item"><a href="/Employee/Index">Employee</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Edit</li>
+    </ul>
+</nav>
+
 <div class="container bg-dark bg-opacity-25 p-4 rounded">
     <h2 class="text-center my-4">Create New Employee Account</h2>
     <form asp-action="UpdateEmployee" enctype="multipart/form-data" method="post" class="container p-4 rounded">
