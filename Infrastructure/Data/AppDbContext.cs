@@ -1,4 +1,5 @@
-﻿using Infrastructure.Data.Model.Employee;
+﻿using Infrastructure.Data.Model.Department;
+using Infrastructure.Data.Model.Employee;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace Infrastructure.Data
         {
         }
         public DbSet<Employee> Employee { get; set; }
+        public DbSet<Department> Department { get; set; }
 
     }
 }

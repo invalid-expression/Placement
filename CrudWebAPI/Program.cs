@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddScoped<IEmployeeService, EmployeeService>(); //register service /MAP service
+builder.Services.AddScoped<IDepartment, DepartmentService>();
+builder.Services.AddScoped<IDepartment, DepartmentService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

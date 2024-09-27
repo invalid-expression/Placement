@@ -8,7 +8,7 @@ Contact Varchar(20),
 Address Varchar(100)
 
 Alter Table Employee Add
-IsActi	ve bit,
+IsActive bit,
 CreateDate datetime,
 CreatedBy Varchar(50),
 ModifiedAt datetime,
