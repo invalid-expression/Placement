@@ -27,7 +27,7 @@ namespace Infrastructure.Data.Model.Employee
 
         //public IFormFile? ProfileImage { get; set; }
         public string? ProfilePicture { get; set; }
-        public bool? IsActive { get; set; }
+        public bool IsActive { get; set; }
         public DateTime? CreateDate { get; set; }
     }
 }

@@ -16,8 +16,6 @@ builder.Services.AddControllersWithViews();
 var provider = builder.Services.BuildServiceProvider();
 var config = provider.GetRequiredService<IConfiguration>();
 
-builder.Services.AddDbContext<EmployeeDbContext>(options =>
-    options.UseSqlServer(config.GetConnectionString("DBconnect")));
 
 builder.Services.AddDbContext<PlacementContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DBconnect")));

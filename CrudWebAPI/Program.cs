@@ -1,14 +1,28 @@
+using Infrastructure.Data;
+using Infrastructure.Repositories;
+using Infrastructure.Service;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddScoped<IEmployeeService, EmployeeService>(); //register service /MAP service
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
 
+var configuration = builder.Configuration;
+builder.Services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(configuration.GetConnectionString("DBConnect"))); //dbcontext register
+
+
+
+var app = builder.Build();
+app.UseDeveloperExceptionPage(); //to see complete error
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
